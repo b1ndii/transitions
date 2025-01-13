@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+div {
+    height: 50px;
+    width: 18em;
+    border: 3px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: green;
+}
+
+div:hover {
+    border-radius: 100%;
+    border: 3px solid black;
+    color: black;
+}
